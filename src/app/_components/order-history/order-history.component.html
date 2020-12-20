@@ -1,0 +1,23 @@
+<div class="container">
+    <h2>Order History</h2>
+    <table class="table">
+      <thead>
+        <tr>
+          <th>S.No</th>
+          <th>Coins</th>
+          <th>Price</th>
+          <th>Status</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let order of orders.data; let i = index">
+
+          <td>{{i+1}}</td>
+          <td>{{order.coins}}</td>
+          <td>{{order.price}}</td>
+          
+          <td>{{order.status}}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>

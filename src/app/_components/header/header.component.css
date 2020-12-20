@@ -1,0 +1,20 @@
+header .main-nav {
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 4000;
+}
+header .main-nav-scrolled {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.navbar-light .navbar-nav .nav-link {
+  color: #fff;
+}
+
+/*for test*/
+body {
+  height: 400px;
+}
+.navbar-dark .navbar-nav .nav-link {
+  color: #fff;
+}

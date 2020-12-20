@@ -1,0 +1,159 @@
+.coin-design {
+  margin-bottom: 40px;
+  margin-left: 70px;
+  margin-right: 70px;
+  margin-top: 50px;
+}
+#button {
+  background-color: #eeeded;
+  padding: 10px;
+  padding-bottom: 20px;
+}
+
+.button-ps4 {
+  color: #ffffff;
+  background-color: #eb7302;
+  border-color: #eb7302;
+}
+.button-xbox {
+  color: #ffffff;
+  background-color: #eb7302;
+  border-color: #eb7302;
+}
+
+.button-pc {
+  color: #ffffff;
+  background-color: #eb7302;
+  border-color: #eb7302;
+}
+.euro-ps4 {
+  color: #1a6cdc;
+  border-color: #1a6cdc;
+}
+.euro-xbox {
+  color: #0f7d0d;
+  border-color: #0f7d0d;
+}
+
+.euro-pc {
+  color: #69f8ff;
+  border-color: #69f8ff;
+}
+
+.ps4-design-2 {
+  margin-top: 50px;
+  margin-left: 0;
+}
+
+.ps4-design {
+  margin-top: 50px;
+}
+
+.heading-ps4 {
+  color: #ffffff;
+  background-color: #1a6cdc;
+  padding: 20px;
+}
+.heading-ps4-2 {
+  color: #ffffff;
+  background-color: #1a6cdc;
+  font-size: 25px;
+  padding: 20px;
+  font-weight: bold;
+}
+
+.button-ps4-search {
+  color: #ffffff;
+  background-color: #1a6cdc;
+  border-color: #1a6cdc;
+  margin-top: 15px;
+}
+.heading-xbox {
+  color: #ffffff;
+  background-color: #0f7d0d;
+  padding: 20px;
+}
+.heading-xbox-2 {
+  color: #ffffff;
+  background-color: #0f7d0d;
+  font-size: 25px;
+  padding: 20px;
+  font-weight: bold;
+}
+
+.button-xbox-search {
+  color: #ffffff;
+  background-color: #0f7d0d;
+  border-color: #0f7d0d;
+  margin-top: 15px;
+}
+
+.heading-pc {
+  color: #ffffff;
+  background-color: #69f8ff;
+  padding: 20px;
+}
+.heading-pc-2 {
+  color: #ffffff;
+  background-color: #69f8ff;
+  font-size: 25px;
+  padding: 20px;
+  font-weight: bold;
+}
+
+.button-pc-search {
+  color: #ffffff;
+  background-color: #69f8ff;
+  border-color: #69f8ff;
+  margin-top: 15px;
+}
+.well {
+  background-color: #eeeded;
+  height: 130px;
+  padding: 25px;
+  margin-bottom: 15px;
+}
+ul {
+  list-style-type: none;
+  overflow: hidden;
+}
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+important .special-pay button .icon {
+  font-size: 16px;
+}
+.special-pay button .icon {
+  font-size: 30px;
+  vertical-align: middle;
+}
+.special-pay button {
+  border-style: solid;
+  border-color: #adadad;
+}
+.special-pay button:active,
+.special-pay button:active.focus,
+.special-pay button:active:focus,
+.special-pay button:active:hover,
+.special-pay button:focus,
+.special-pay button:hover {
+  color: #333;
+  background-color: #e6e6e6;
+  border-color: #adadad;
+}
+.special-pay .btn {
+  height: 60px;
+  padding: 7px;
+  font-size: 16px;
+}
+#reviews {
+  margin-top: 50px;
+  padding: 20px;
+}

@@ -1,0 +1,32 @@
+important .special-pay button .icon {
+  font-size: 16px;
+}
+.special-pay button .icon {
+  font-size: 30px;
+  vertical-align: middle;
+}
+.special-pay button {
+  border-style: solid;
+  width: 200px;
+  color: white;
+  background-color: black;
+  border-color: #adadad;
+}
+.special-pay button:active,
+.special-pay button:active.focus,
+.special-pay button:active:focus,
+.special-pay button:active:hover,
+.special-pay button:focus,
+.special-pay button:hover {
+  color: #333;
+  background-color: white;
+  border-color: black;
+}
+.special-pay .btn {
+  height: 60px;
+  padding: 7px;
+  font-size: 16px;
+}
+ul li {
+  margin: 20px;
+}

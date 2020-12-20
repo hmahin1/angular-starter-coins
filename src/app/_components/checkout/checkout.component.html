@@ -1,0 +1,49 @@
+<div class="container">
+  <div class="row">
+  <div class="col-md-6">
+    <div class="cc-selector payment-option">
+      <h1>Choose One:</h1>
+      <input id="visa" type="radio" name="credit-card" value="skrill" (click)="card('skrill')" />
+      <label class="drinkcard-cc visa" for="visa"></label>
+      <input id="mastercard" type="radio" name="credit-card" value="paypal" (click)="card('paypal')"/>
+      <label class="drinkcard-cc mastercard"for="mastercard"></label>
+  </div>
+</div>
+<div class="col-md-3">
+<main class="page payment-page">
+  <section class="payment-form dark">
+    <div class="container">
+      <div class="block-heading">
+        <h2>Contact email:</h2>
+        <p>
+          seo@gmail.com
+        </p>
+      </div>
+      <form>
+        <div class="products">
+          <h3 class="title">Checkout</h3>
+          <div class="item">
+            <span class="price">€ {{prod?.price}}</span>
+            <p class="item-name">Coin {{prod?.coins}} K</p>
+            <p class="item-description">Lorem ipsum dolor sit amet</p>
+          </div>
+          <div class="total">Total<span class="price">€ {{prod?.price}}</span></div>
+        </div>
+        <div class="card-details">
+          
+          <div class="row">
+          
+            <div class="form-group col-sm-12">
+              <button type="button" class="btn btn-danger btn-block" (click)="checkout()">
+                Checkout
+              </button>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+  </section>
+</main>
+</div>
+</div>
+</div>

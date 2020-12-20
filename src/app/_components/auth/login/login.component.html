@@ -1,0 +1,85 @@
+<section id="wrapper" class="login-register login-sidebar">
+  <div class="login-box card">
+    <div class="card-body">
+      <form
+        [formGroup]="loginForm"
+        (ngSubmit)="login()"
+        class="form-horizontal form-material"
+        id="loginform"
+        novalidate
+      >
+        <a href="javascript:void(0)" class="text-center db logo-container"> </a>
+        <h3 class="box-title m-t-40 m-b-0 text-center">Sign In</h3>
+        <div class="form-group m-t-20">
+          <div class="col-xs-8 col-md-8 align">
+           <!--  <app-form-error-wrapper
+              [control]="loginForm.controls['email']"
+              [controlName]="'email'"
+            > -->
+              <input
+                class="form-control"
+                type="text"
+                formControlName="email"
+                placeholder="email"
+              />
+            <!-- </app-form-error-wrapper>
+          --> </div>
+        </div>
+        <div class="form-group">
+          <div class="col-xs-8 col-md-8 align">
+         <!--    <app-form-error-wrapper
+              [control]="loginForm.controls['password']"
+              [controlName]="'Password'"
+            >
+          -->     <input
+                class="form-control"
+                type="password"
+                formControlName="password"
+                placeholder="Password"
+              />
+         <!--    </app-form-error-wrapper>
+          --> </div>
+        </div>
+        <div class="form-group text-center m-t-20">
+          <div class="col-xs-8 col-md-8 align">
+            <button
+              class="btn btn-info btn-lg btn-block text-uppercase waves-effect waves-light"
+              [disabled]="loginForm.invalid || isLoading"
+              
+            >
+             Login 
+            </button>
+          </div>
+        </div>
+        <div class="form-group m-b-0">
+          <div class="col-sm-8 text-center align">
+            <p>
+              Don't have an account?
+              <a class="text-info m-l-5" [routerLink]="['/register']">
+                <b>Sign Up</b>
+              </a>
+            </p>
+          </div>
+        </div>
+      </form>
+      <!--       <form [formGroup]="resetPasswordForm" class="form-horizontal" id="recoverform" novalidate>
+        <div class="form-group ">
+          <div class="col-xs-12">
+            <h3>Recover Password</h3>
+            <p class="text-muted">Enter your Email and instructions will be sent to you! </p>
+          </div>
+        </div>
+        <div class="form-group ">
+          <div class="col-xs-12">
+            <input class="form-control" type="text" formControlName="email" placeholder="Email">
+          </div>
+        </div>
+        <div class="form-group text-center m-t-20">
+          <div class="col-xs-12">
+            <a class="btn btn-primary btn-lg btn-block text-uppercase waves-effect waves-light" [routerLink]="['/login']">Reset</a>
+          </div>
+        </div>
+      </form> -->
+    </div>
+  </div>
+</section>

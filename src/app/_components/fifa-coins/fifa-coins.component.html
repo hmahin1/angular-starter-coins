@@ -1,0 +1,355 @@
+<div class="row coin-design">
+  <div class="col-md-12 text-center">
+    <tabset>
+      <tab heading="PS4" [customClass]="euro - ps4" (selectTab)="getData($event,'ps4')">
+        <div class="row ps4-design-2">
+          <div class="well">
+            <h1 style="display: inline;font-size: inherit;">
+              FUT 20 Coins PS4
+            </h1>
+            and
+            <strong style="display: inline;font-size: inherit;">
+              Ultimate Team Coins PS4</strong
+            >
+            for sale from best FUT Coins PS4 Seller FIFACOIN.COM are traded via
+            Player Auction 3.0, Comfort Trade 3.0 or Player Auction P2P to
+            ensure you can get FUT 20 Coins PS4 safely. Buy Coins PS4 and enjoy
+            big deals on cheap 20 Coins PS4 now.
+          </div>
+
+          <div class="col-md-2 heading-ps4">
+            PS4
+          </div>
+
+          <div class="col-md-3 heading-ps4">
+            <input
+              type="text"
+              id="selected_qty"
+              placeholder="Enter Amount"
+              aria-describedby="basic-addon2"
+              name="qty"
+            />
+          </div>
+          <div class="col-md-2 heading-ps4-2">
+            <span> &nbsp; K </span>
+            <span> &nbsp; =</span>
+            <span> &nbsp; 0K</span>
+            <span> &nbsp; &#8658;</span>
+          </div>
+          <div class="col-md-3 heading-ps4">
+            <input
+              type="text"
+              class="final-qty"
+              id="final_price"
+              placeholder=""
+              value="€0.00"
+              aria-describedby="basic-addon2"
+              name="fqty"
+            />
+          </div>
+
+          <div class="col-md-2" id="button">
+            <button
+              type="button"
+              class="btn btn-primary btn-lg button-ps4-search"
+            >
+              Buy Now
+            </button>
+          </div>
+        </div>
+
+        <div class="special-pay clearfix">
+          <ul>
+            <li class="pay-psc pull-right">
+              <a href="/category/fixedbuy/cid/157">
+                <button type="button" class="btn btn-default btn-lg">
+                  <i class="fas fa-mobile-alt"></i> Pay by Phone
+                </button>
+              </a>
+            </li>
+            <li class="pay-phone pull-right">
+              <a href="/category/fixedbuy/cid/157/type/PSC">
+                <button type="button" class="btn btn-default btn-lg">
+                  <i class="icon iconfont icon-Paysafecard"></i> Pay by
+                  Paysafecard
+                </button>
+              </a>
+            </li>
+            <li class="pay-phone pull-right">
+              <a class="hot-tip" href="/category/fixedbuy/cid/157/type/bit">
+                <button type="button" class="btn btn-default btn-lg">
+                  <i class="icon iconfont icon-bitcoin"></i> Pay by Bitcoin
+                  <span style="color: red;">(+ 10% coins)</span>
+                </button>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="row ps4-design">
+          <div
+            class="col-md-3 text-center"
+            *ngFor="let ps of ps4; let i = index"
+          >
+            <div class="card" style="width: 18rem;">
+              <img
+                src="assets/images/ps42.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">20 Coins -- {{ ps.coins }}</h5>
+
+                <h5 class="card-title euro-ps4">{{ps.price}} €</h5>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">
+                    <button type="button" class="btn btn-primary button-ps4" [routerLink]="['/checkout']" [queryParams]="{ id: ps.id}">
+                      Buy Now
+                    </button>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </tab>
+      <tab heading="XBOX" (selectTab)="getData($event,'xbox')">
+        <div class="row ps4-design-2">
+          <div class="well">
+            <h1 style="display: inline;font-size: inherit;">
+              FUT 20 Coins Xbox
+            </h1>
+            and
+            <strong style="display: inline;font-size: inherit;">
+              Ultimate Team Coins Xbox</strong
+            >
+            for sale from best FUT Coins Xbox Seller FIFACOIN.COM are traded via
+            Player Auction 3.0, Comfort Trade 3.0 or Player Auction P2P to
+            ensure you can get FUT 20 Coins PS4 safely. Buy Coins PS4 and enjoy
+            big deals on cheap 20 Coins PS4 now.
+          </div>
+          <div class="col-md-2 heading-xbox">
+            XBOX
+          </div>
+
+          <div class="col-md-3 heading-xbox">
+            <input
+              type="text"
+              id="selected_qty"
+              placeholder="Enter Amount"
+              aria-describedby="basic-addon2"
+              name="qty"
+            />
+          </div>
+          <div class="col-md-2 heading-xbox-2">
+            <span> &nbsp; K </span>
+            <span> &nbsp; =</span>
+            <span> &nbsp; 0K</span>
+            <span> &nbsp; &#8658;</span>
+          </div>
+          <div class="col-md-3 heading-xbox">
+            <input
+              type="text"
+              class="final-qty"
+              id="final_price"
+              placeholder=""
+              value="€0.00"
+              aria-describedby="basic-addon2"
+              name="fqty"
+            />
+          </div>
+
+          <div class="col-md-2" id="button">
+            <button
+              type="button"
+              class="btn btn-primary btn-lg button-xbox-search"
+            >
+              Buy Now
+            </button>
+          </div>
+        </div>
+        <div class="special-pay clearfix">
+          <ul>
+            <li class="pay-psc pull-right">
+              <a href="/category/fixedbuy/cid/157">
+                <button type="button" class="btn btn-default btn-lg">
+                  <i class="icon iconfont icon-shouji1"></i> Pay by Phone
+                </button>
+              </a>
+            </li>
+            <li class="pay-phone pull-right">
+              <a href="/category/fixedbuy/cid/157/type/PSC">
+                <button type="button" class="btn btn-default btn-lg">
+                  <i class="icon iconfont icon-Paysafecard"></i> Pay by
+                  Paysafecard
+                </button>
+              </a>
+            </li>
+            <li class="pay-phone pull-right">
+              <a class="hot-tip" href="/category/fixedbuy/cid/157/type/bit">
+                <button type="button" class="btn btn-default btn-lg">
+                  <i class="icon iconfont icon-bitcoin"></i> Pay by Bitcoin
+                  <span style="color: red;">(+ 10% coins)</span>
+                </button>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="row ps4-design">
+          <div
+            class="col-md-3 text-center"
+            *ngFor="let xb of xbox; let i = index"
+          >
+            <div class="card" style="width: 18rem;">
+              <img
+                src="assets/images/xbox2.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">20 Coins -- {{ xb.coins }}</h5>
+
+                <h5 class="card-title euro-xbox">{{ xb.price }} €</h5>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">
+                    <button type="button" class="btn btn-primary button-xbox" [routerLink]="['/checkout']" [queryParams]="{ id: xb.id}">
+                      Buy Now
+                    </button>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </tab>
+      <tab heading="PC" (selectTab)="getData($event,'pc')">
+        <div class="row ps4-design-2">
+          <div class="well">
+            <h1 style="display: inline;font-size: inherit;">
+              FUT 20 Coins Xbox
+            </h1>
+            and
+            <strong style="display: inline;font-size: inherit;">
+              Ultimate Team Coins Xbox</strong
+            >
+            for sale from best FUT Coins Xbox Seller FIFACOIN.COM are traded via
+            Player Auction 3.0, Comfort Trade 3.0 or Player Auction P2P to
+            ensure you can get FUT 20 Coins PS4 safely. Buy Coins PS4 and enjoy
+            big deals on cheap 20 Coins PS4 now.
+          </div>
+          <div class="col-md-2 heading-pc">
+            PC
+          </div>
+
+          <div class="col-md-3 heading-pc">
+            <input
+              type="text"
+              id="selected_qty"
+              placeholder="Enter Amount"
+              aria-describedby="basic-addon2"
+              name="qty"
+            />
+          </div>
+          <div class="col-md-2 heading-pc-2">
+            <span> &nbsp; K </span>
+            <span> &nbsp; =</span>
+            <span> &nbsp; 0K</span>
+            <span> &nbsp; &#8658;</span>
+          </div>
+          <div class="col-md-3 heading-pc">
+            <input
+              type="text"
+              class="final-qty"
+              id="final_price"
+              placeholder=""
+              value="€0.00"
+              aria-describedby="basic-addon2"
+              name="fqty"
+            />
+          </div>
+
+          <div class="col-md-2" id="button">
+            <button
+              type="button"
+              class="btn btn-primary btn-lg button-pc-search"
+              [routerLink]="['/checkout']" [queryParams]="{ id: pc.id}"
+            >
+              Buy Now
+            </button>
+          </div>
+        </div>
+        <div class="special-pay clearfix">
+          <ul>
+            <li class="pay-psc pull-right">
+              <a href="/category/fixedbuy/cid/157">
+                <button type="button" class="btn btn-default btn-lg">
+                  <i class="icon iconfont icon-shouji1"></i> Pay by Phone
+                </button>
+              </a>
+            </li>
+            <li class="pay-phone pull-right">
+              <a href="/category/fixedbuy/cid/157/type/PSC">
+                <button type="button" class="btn btn-default btn-lg">
+                  <i class="icon iconfont icon-Paysafecard"></i> Pay by
+                  Paysafecard
+                </button>
+              </a>
+            </li>
+            <li class="pay-phone pull-right">
+              <a class="hot-tip" href="/category/fixedbuy/cid/157/type/bit">
+                <button type="button" class="btn btn-default btn-lg">
+                  <i class="icon iconfont icon-bitcoin"></i> Pay by Bitcoin
+                  <span style="color: red;">(+ 10% coins)</span>
+                </button>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="row ps4-design">
+          <div
+            class="col-md-3 text-center"
+            *ngFor="let p of pc; let i = index"
+          >
+            <div class="card" style="width: 18rem;">
+              <img
+                src="assets/images/pc22.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">20 Coins -- {{ p.coins }}</h5>
+
+                <h5 class="card-title euro-pc">{{ p.price }} €</h5>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">
+                    <button type="button" class="btn btn-primary button-pc" (click)="checkout(p)">
+                      Buy Now
+                    </button>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </tab>
+    </tabset>
+
+    <ul
+      class="nav nav-tabs"
+      style="margin: 20px; font-weight: bold; font-size: 30px;"
+    >
+      <li class="active"><a>Reviews</a></li>
+    </ul>
+    <div id="reviews">
+      <div class="card w-75">
+        <div class="card-body">
+          <h5 class="card-title">MARK</h5>
+          <p class="card-text">
+            With supporting text below as a natural lead-in to additional
+            content.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,14 @@
+.padding {
+  margin-top: 20px;
+}
+.coin-design {
+  margin-bottom: 40px;
+  margin-left: 70px;
+}
+.button {
+  color: white;
+  background-color: #eb7302;
+  border-color: #eb7302;
+  font-weight: bold;
+  height: 40px;
+}
